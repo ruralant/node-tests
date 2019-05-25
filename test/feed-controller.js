@@ -1,9 +1,7 @@
 const expect = require('chai').expect;
-const sinon = require('sinon');
 const mongoose = require('mongoose');
 
 const User = require('../models/user');
-const Post = require('../models/post');
 const FeedController = require('../controllers/feed');
 
 describe('Feed Controller', function() {
